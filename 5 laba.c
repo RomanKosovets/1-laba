@@ -23,7 +23,6 @@ int main() {
         printf("\n");
         for (int n = 0; n < 2; n++) {
             printf("%d ", result[i][n]);
-
         }
     }
     return 0;
