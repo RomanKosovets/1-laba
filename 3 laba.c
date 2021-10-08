@@ -3,10 +3,10 @@
 int main() {
     int var;
     scanf("%x", &var);
-    printf("2) 16CC => 10: %d\n", var);
-    printf("3) 16CC: %x; 16CC >> 2: %x\n", var, var >> 2);
-    printf("4) 16CC: %x; 16CC = %x \n", var, ~var);
-    printf("5) %x^%x = %x \n", var, var >> 2, var ^ (var >> 2));
+    printf("2) Число %x в 10-чной системе счисления: %d\n", var, var);
+    printf("3) Введённое число в 16-ричной системе счисления: %x; число сдвинутое на 2 бита >> 2: %x\n", var, var >> 2);
+    printf("4) Введённое число в 16-ричной системе счисления: %x; операция битового отрицания = %x \n", var, ~var);
+    printf("5) %x битовое ИЛИ %x = %x \n", var, var >> 2, var | (var >> 2));
     return 0;
 
 }
