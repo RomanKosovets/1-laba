@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, This is Proggraming_Labs_ITMO"
+<h1 align="center">Hi there, This is Proggraming_Labs_1sem"
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
 ## About
